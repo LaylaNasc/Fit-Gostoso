@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fit&Gostoso</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <div class="container">
+        <input type="checkbox" id="menu" class="container_botao" />
+        <label for="menu">
+          <span class="cabecalho_menu_hamburguer container_imagem"></span>
+        </label>
+        <ul class="lista_menu">
+          <li class="lista_menu__titulo">CATEGORIAS</li>
+          <li class="lista_menu__itens">
+            <a href="#" class="lista_menu__link">Café da manhã</a>
+          </li>
+          <li class="lista_menu__itens">
+            <a href="#" class="lista_menu__link">Almoço</a>
+          </li>
+          <li class="lista_menu__itens">
+            <a href="#" class="lista_menu__link">Lanches</a>
+          </li>
+          <li class="lista_menu__itens">
+            <a href="#" class="lista_menu__link">Jantar</a>
+          </li>
+          <li class="lista_menu__itens">
+            <a href="#" class="lista_menu__link">Marmitas</a>
+          </li>
+        </ul>
+        <img
+          src="./img/logo.png"
+          alt="LogoFit&Gostoso"
+          class="container__imgLogo container_imagem"
+        />
+        <h1 class="container_titulo">
+          <b class="conteiner_titulo--negrito">Fit&Gostoso</b>
+        </h1>
+      </div>
+      <ul class="opcoes">
+        <input type="checkbox" id="opcoes_menu" class="opcoes_botao" />
+        <label for="opcoes_menu" class="opcao_rotulo">
+          <li class="opcoes_item">CATEGORIAS</li>
+        </label>
+        <ul class="lista_menu">
+          <li class="lista_menu__titulo">CATEGORIAS</li>
+          <li class="lista_menu__itens">
+            <a href="#" class="lista_menu__link">Café da manhã</a>
+          </li>
+          <li class="lista_menu__itens">
+            <a href="#" class="lista_menu__link">Almoço</a>
+          </li>
+          <li class="lista_menu__itens">
+            <a href="#" class="lista_menu__link">Lanches</a>
+          </li>
+          <li class="lista_menu__itens">
+            <a href="#" class="lista_menu__link">Jantar</a>
+          </li>
+          <li class="lista_menu__itens">
+            <a href="#" class="lista_menu__link">Marmitas</a>
+          </li>
+        </ul>
+        <li class="opcoes_item">
+          <a href="#" class="opcoes_link">Favoritos</a>
+        </li>
+        <li class="opcoes_item">
+          <a href="#" class="opcoes_link opcoes_link_receita"
+            >Minhas receitas</a
+          >
+        </li>
+      </ul>
+      <div class="container">
+        <a href="#">
+          <img
+            src="img/coracao.png"
+            alt="Minhas receitas favoritas"
+            class="img_coracao container_imagem container_imagem_transparente"
+          />
+        </a>
+        <a href="#" class="container_link">
+          <img
+            src="img/pranchetas.png"
+            alt="Plano alimentar"
+            class="img_prancheta container_imagem container_imagem_transparente"
+          />
+          <p class="container_texto">MINHAS RECEITAS</p>
+        </a>
+        <a href="#" class="container_link">
+          <img
+            src="img/usuario.png"
+            alt="Usuário"
+            class="img_user container_imagem"
+          />
+          <p class="container_texto">MEU PERFIL</p>
+        </a>
+      </div>
+    </header>
+    <section class="banner">
+      <h2 class="banner_titulo">Por que não consigo manter a dieta?</h2>
+      <p class="banner_texto">
+        Entre os principais motivos para não seguirmos uma dieta estão as
+        expectativas irreais, a fome emocional e a percepção do emagrecimento
+        como algo temporário.
+      </p>
+    </section>
+    <section class="carrossel">
+      <h2 class="carrossel_titulo">Receitas deliciosas e divertidas</h2>
+      <!-- Slider main container -->
+      <div class="carrossel_conteiner">
+        <div class="swiper">
+          <div class="swiper-pagination"></div>
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img
+                src="./img/bolodeAveia.jpg"
+                alt="Bolo de banana e aveia"
+                class="img_carrossel"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./img/cafedamanha.jpg"
+                alt="Cfé da manhã"
+                class="img_carrossel"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/lanche.jpg" alt="Rap10" class="img_carrossel" />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./img/lasanhadeabobrinha.jpg"
+                alt="Lasanha de abobrinha"
+                class="img_carrossel"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./img/vitaminadefrutas.jpg"
+                alt="Vitamnina de frutas vermelhas"
+                class="img_carrossel"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/salada.jpeg" alt="Salada" class="img_carrossel" />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./img/overnight.jpg"
+                alt="overnight"
+                class="img_carrossel"
+              />
+            </div>
+          </div>
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+
+        <div class="card">
+          <div class="card_descricao">
+            <div class="descricao">
+              <h3 class="descricao_titulo">Qual a sua preferencia?</h3>
+              <h2 class="descricao_sujestao">Atendimento online</h2>
+              <p class="descricao_texto">
+                O atendimento online é prático e conveniente, permitindo
+                consultas remotas via videochamadas para orientação nutricional
+                e planos alimentares.
+              </p>
+            </div>
+            <img
+              src="./img/consulta.jpg"
+              alt="Digitando plano Alimentar"
+              class="img_consulta"
+            />
+          </div>
+          <div class="card_botao">
+            <ul class="botao">
+              <li class="botao_itens">
+                <img
+                  src="./img/coracao.png"
+                  alt="Favoritos"
+                  class="img_coracao"
+                />
+              </li>
+              <li class="botao_itens">
+                <img
+                  src="./img/comprar.png"
+                  alt="Sacola de compras"
+                  class="img_sacola"
+                />
+              </li>
+            </ul>
+            <a href="#" class="botao_ancora">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="carrossel">
+      <h2 class="carrossel_titulo">Conheça nossos livros.</h2>
+      <!-- Slider main container -->
+      <div class="carrossel_conteiner">
+        <div class="swiper">
+          <div class="swiper-pagination"></div>
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img
+                src="./img/coletiva.webp"
+                alt="Livro sobre nutrição coletiva"
+                class="img_carrossel"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./img/esportiva.webp"
+                alt="Livro sobre nutrição esportiva"
+                class="img_carrossel"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./img/estetica.jpg"
+                alt="Livro sobre nutrição estética"
+                class="img_carrossel"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./img/gerontologia.jpg"
+                alt="Livro sobre nutrição em gerontologia"
+                class="img_carrossel"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./img/maternoInfantil.jpg"
+                alt="Livro sobre nutrição materno infantil"
+                class="img_carrossel"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./img/vegetarianismo.webp"
+                alt="Livro sobre nutrição vegetariana"
+                class="img_carrossel"
+              />
+            </div>
+          </div>
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+
+        <div class="card">
+          <div class="card_descricao">
+            <div class="descricao">
+              <h3 class="descricao_titulo">Qual a sua preferencia?</h3>
+              <h2 class="descricao_sujestao">Atendimento home care</h2>
+              <p class="descricao_texto">
+                O atendimento Home Care oferece mobilidade ao profissional,
+                adaptando-se às necessidades do cliente.
+              </p>
+            </div>
+            <img
+              src="./img/consultahomecare.webp"
+              alt="Consulta home care"
+              class="img_consulta"
+            />
+          </div>
+          <div class="card_botao">
+            <ul class="botao">
+              <li class="botao_itens">
+                <img
+                  src="./img/coracao.png"
+                  alt="Favoritos"
+                  class="img_coracao"
+                />
+              </li>
+              <li class="botao_itens">
+                <img
+                  src="./img/comprar.png"
+                  alt="Sacola de compras"
+                  class="img_sacola"
+                />
+              </li>
+            </ul>
+            <a href="#" class="botao_ancora">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="topicos">
+      <h2 class="topicos_titulo">VISISTOS RECENTEMENTE</h2>
+      <ul class="topicos_lista">
+        <li class="topicos_itens">
+          <a href="#" class="topicos_link">Salada crocante</a>
+        </li>
+        <li class="topicos_itens">
+          <a href="#" class="topicos_link">Molhos</a>
+        </li>
+        <li class="topicos_itens">
+          <a href="#" class="topicos_link">Bolo de caneca</a>
+        </li>
+        <li class="topicos_itens">
+          <a href="#" class="topicos_link">Farofa de soja</a>
+        </li>
+        <li class="topicos_itens">
+          <a href="#" class="topicos_link">Receitas com whey protein</a>
+        </li>
+        <li class="topicos_itens">
+          <a href="#" class="topicos_link">Cuscuz</a>
+        </li>
+        <li class="topicos_itens">
+          <a href="#" class="topicos_link">Banoffe</a>
+        </li>
+        <li class="topicos_itens">
+          <a href="#" class="topicos_link">Pizza fit</a>
+        </li>
+        <li class="topicos_itens">
+          <a href="#" class="topicos_link">Pudim fit</a>
+        </li>
+      </ul>
+      <p class="topicos_texto">O que você quer cozinhar hoje?</p>
+      <input
+        type="search"
+        class="topicos_pesquisa"
+        placeholder="Procurar receita ou ingrediente"
+      />
+    </section>
+
+    <section class="contato">
+      <h2 class="contato_titulo">Receba receitas diariamente em seu email</h2>
+      <input
+        type="email"
+        placeholder="Digite seu email"
+        class="contato_email"
+      />
+    </section>
+
+    <hr />
+
+    <footer class="rodape">
+      <div class="rodape_secao">
+        <img src="./img/logo.png" alt="Logotipo" class="rodape_logo" />
+      </div>
+      <div class="rodape_secao">
+        <h3 class="rodape_titulo_lista">Contato</h3>
+        <p class="rodape_texto">
+          (00)0 0000-0000 <br /><br />
+          comercial@fit&gostoso.com.br
+        </p>
+        <div class="rodape_icones">
+          <img
+            src="./img/facebook-13.svg"
+            alt="Facebook"
+            class="rodape_img_icon"
+          />
+          <img
+            src="./img/instagram-40.svg"
+            alt="Instagram"
+            class="rodape_img_icon"
+          />
+          <img
+            src="./img/whatsapp-business-34.svg"
+            alt="WhatsApp"
+            class="rodape_img_icon"
+          />
+        </div>
+      </div>
+      <div class="rodape_secao">
+        <h3 class="rodape_titulo_lista">Formas de pagamento</h3>
+        <div class="rodape_icones_pag">
+          <img src="./img/nubank-96.svg" alt="Nubank" class="rodape_img_pag" />
+          <img src="./img/visa-17.svg" alt="Visa" class="rodape_img_pag" />
+          <img src="./img/pix-106.svg" alt="Pix" class="rodape_img_pag" />
+          <img
+            src="./img/hipercard-29.svg"
+            alt="Hipercard"
+            class="rodape_img_pag"
+          />
+        </div>
+      </div>
+      <h2 class="rodape_titulo">Desenvolvido por Layla Nascimento</h2>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+          el: ".swiper-pagination",
+          type: "bullets",
+        },
+      });
+    </script>
+  </body>
+</html>
