@@ -1,7 +1,7 @@
 <h1>Fit&Gostoso<h1>
 
  <h2>Fit&Gostoso é um site simples criado com o objetivo de consolidar os conhecimentos adquiridos em **HTML** e **CSS**. 
- Ao longo do desenvolvimento, utilizei técnicas e conceitos aprendidos em cursos da Alura de responsividade com mobile-first em conjunto com outros cursos de HTML e CSS.<h2>
+ Ao longo do desenvolvimento, utilizei técnicas e conceitos aprendidos no curso da Alura de responsividade com mobile-first em conjunto com outros cursos de HTML e CSS.<h2>
 
  ### Tecnologias 
  + HTML
